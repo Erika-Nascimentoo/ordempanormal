@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: #000;
+  color: #fff;
+  padding:20px ;
+  display: flex;
+  justify-content: end;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  list-style: none;
+}
+
+.ordem-bg{
+
+  background-color: aqua;
+  
+}
+
+.ordem.container{
+  padding-left: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(58, 49, 34);
+}
+
+.ordem-conteudo{
+ background-color: blue;
+ grid-column: 1/-1;
+}
+.ordem-imagens img{
+  padding-top: 40px;
+  background-color: green;
+  max-width: 100%;
+  grid-column: 2/-1;
+}
+
+h2{
+}
